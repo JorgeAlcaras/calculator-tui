@@ -142,7 +142,7 @@ public class Calculator {
         dividend = input.nextInt();
         System.out.print("Divisor: ");
         divisor = input.nextInt();
-        System.out.print("Result: " + (dividend / divisor) + "\nResidue: " + (dividend % divisor));
+        System.out.print("Result: " + (int) (dividend / divisor) + "\nResidue: " + (dividend % divisor));
         break;
       case 6:
         // Power
